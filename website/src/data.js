@@ -1,10 +1,11 @@
-export const LINKS = [
-  {
-    title: "LinkedIn",
-    link: "https://linkedin.com/in/dothashemi",
-  },
-  {
-    title: "GitHub",
-    link: "https://github.com/dothashemi",
-  },
-];
+export const DATA = {
+  skills: [
+    "Python",
+    "Django",
+    "PHP",
+    "Laravel",
+    "Linux",
+    "Docker",
+    "Tailwind CSS",
+  ],
+};

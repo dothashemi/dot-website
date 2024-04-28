@@ -1,0 +1,15 @@
+networks:
+  wan:
+    name: wan
+    external: true
+
+services:
+  dot-website:
+    container_name: dot-website
+    build:
+      context: website
+      dockerfile: Dockerfile
+    image: dot/dot-website:latest
+    networks:
+      wan:
+        ipv4_address: "172.16.16.10"
