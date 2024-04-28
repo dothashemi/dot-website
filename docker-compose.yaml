@@ -1,0 +1,17 @@
+networks:
+  lan:
+    name: lan
+    external: true
+
+services:
+  dot-website:
+    container_name: dot-website
+    image: node:lts-alpine3.19
+    volumes:
+      - ./website:/usr/src/dot
+    working_dir: /usr/src/dot
+    networks:
+      lan:
+    ports:
+      - "80:5173"
+    command: sh -c "npm install && npm run dev -- --host"
