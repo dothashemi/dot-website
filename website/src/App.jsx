@@ -7,7 +7,7 @@ import "./App.css";
 function App() {
   return (
     <>
-      <main className="w-[1024px] mx-auto p-4">
+      <main className="lg:w-[1024px] mx-auto p-4">
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-4">
           <div className="space-y-4">
             <div className="rounded-lg overflow-hidden bg-white shadow">
