@@ -4,8 +4,9 @@ export const DATA = {
     "Django",
     "PHP",
     "Laravel",
+    "Tailwind CSS",
     "Linux",
     "Docker",
-    "Tailwind CSS",
+    "Git",
   ],
 };
