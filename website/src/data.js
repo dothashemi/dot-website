@@ -9,4 +9,11 @@ export const DATA = {
     "Docker",
     "Git",
   ],
+  projects: [
+    {
+      title: "Hildax Company",
+      url: "https://hildaxcompany.com",
+      tools: ["WordPress"],
+    },
+  ],
 };

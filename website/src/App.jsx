@@ -1,7 +1,10 @@
 import { useState } from "react";
 
 import { DATA } from "./data.js";
+
 import Icons from "./components/Icons.jsx";
+import Project from "./components/Project.jsx";
+
 import "./App.css";
 
 function App() {
@@ -70,6 +73,17 @@ function App() {
 
             <div className="p-4 rounded-lg bg-white shadow">
               <div className="mb-4 font-bold text-lg">Portfolios</div>
+
+              {DATA.projects.map((project, index) => (
+                <>
+                  <Project
+                    title={project.title}
+                    url={project.url}
+                    hr={DATA.projects.length - 1 != index}
+                    tools={project.tools}
+                  />
+                </>
+              ))}
             </div>
           </div>
         </div>
