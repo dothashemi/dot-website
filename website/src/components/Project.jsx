@@ -1,4 +1,4 @@
-import Icons from "./Icons";
+import Icons from "./Icons.jsx";
 
 export default function Project({ title, url, tools, hr }) {
   return (
