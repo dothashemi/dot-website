@@ -14,7 +14,7 @@ function App() {
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-4">
           <div className="space-y-4">
             <div className="rounded-lg overflow-hidden bg-white shadow">
-              <div className="relative h-20 mb-6 bg-gray-300">
+              <div className="relative h-32 mb-6 bg-gray-300">
                 <div className="absolute left-8 -bottom-6 w-16 h-16 rounded-lg border-2 bg-purple-300"></div>
               </div>
 
@@ -25,8 +25,11 @@ function App() {
                 </div>
 
                 <a href="#">
-                  <div className="w-full p-3 rounded-lg bg-purple-900 hover:bg-purple-950 text-sm text-white text-center">
-                    Download Resume
+                  <div className="flex text-sm text-white text-center">
+                    <div className="w-full p-3 rounded-s-lg bg-purple-600 hover:bg-purple-800 ease-in-out duration-200">
+                      Download Resume
+                    </div>
+                    <div className="p-3 rounded-e-lg bg-purple-800">DL</div>
                   </div>
                 </a>
               </div>
