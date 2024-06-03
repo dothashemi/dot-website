@@ -11,8 +11,10 @@ export default function Project({ title, url, tools, hr }) {
         <div className="w-full">
           <div className="mb-1 text-[1.07rem] font-[500]">{title}</div>
 
-          <div className="flex items-center mb-6 space-x-2 text-gray-500">
-            <Icons tag="tag" />
+          <div className="flex flex-wrap items-center mb-6 space-x-2 space-y-2 text-gray-500">
+            <span className="mt-2">
+              <Icons tag="tag" />
+            </span>
             {tools.map((tool, index) => (
               <>
                 <span key={tool} className="text-sm">

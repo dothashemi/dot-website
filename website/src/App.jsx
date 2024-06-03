@@ -69,8 +69,8 @@ function App() {
               <hr />
 
               <div className="flex">
-                <div className="p-4">Resume</div>
-                <div className="p-4">Projects</div>
+                <div className="p-4 cursor-pointer">Resume</div>
+                <div className="p-4 cursor-pointer">Projects</div>
               </div>
             </div>
 
