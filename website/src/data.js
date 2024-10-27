@@ -2,8 +2,6 @@ export const DATA = {
   skills: [
     "PHP",
     "Laravel",
-    "Python",
-    "Django",
     "React",
     "Tailwind CSS",
     "Linux",
@@ -16,6 +14,11 @@ export const DATA = {
     "CCNA",
   ],
   projects: [
+    {
+      title: "137 System",
+      url: "https://137.ramkancity.ir",
+      tools: ["Laravel", "React"],
+    },
     {
       title: "Hildax Company",
       url: "https://hildaxcompany.com",

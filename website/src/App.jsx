@@ -21,7 +21,8 @@ function App() {
               <div className="p-4">
                 <div className="mb-2 font-bold text-lg">Mohamed Hashemi</div>
                 <div className="mb-6 text-sm text-gray-500">
-                  Back-End Developer | Junior DevOps Engineer
+                  <div>Full-Stack Web Developer</div>
+                  <div>Junior DevOps Engineer</div>
                 </div>
 
                 <a href="#">
